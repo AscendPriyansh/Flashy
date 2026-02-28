@@ -10,13 +10,14 @@ body {
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
-  background-color: var(--background-primary-color);
+  background-image: linear-gradient(to bottom, var(--background-primary-color1), var(--background-primary-color2));
   color: white;
   overflow: hidden;
 }
 
 :root {
-  --background-primary-color: #081c15;
+  --background-primary-color1: #125740;
+  --background-primary-color2: #020c09;
   --color-3xl: #1b4332;
   --color-2xl: #2d6a4f;
   --color-xl: #40916c;
@@ -106,6 +107,8 @@ body {
   border: 1px solid var(--color-2xs);
   border-radius: 1rem;
   background-color: var(--color-3xl);
+  text-align: center;
+  transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .container .cards:hover {
@@ -254,4 +257,14 @@ body {
 
 .fa-solid {
   color: var(--color-2xs);
+}
+
+.container .cards-animation-result {
+  transform: rotate3d(2, -1, -1, -0.2turn);
+  color: var(--color-3xl);
+}
+
+.container .cards-animation-next {
+  transform: scale(0.9);
+  color: var(--color-3xl);
 }
