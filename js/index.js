@@ -1,12 +1,20 @@
-let getStartedBtn = document.querySelectorAll(".getstarted-btn");
+let getStartedBtn = document.querySelector(".getstarted-btn");
+let getStartedtop = document.querySelector(".getstarted");
 let contactBtn = document.querySelector(".contact-btn");
+let mobscreen = document.querySelector(".mobscreen-navbar");
 
-getStartedBtn.forEach(button => {
-    button.addEventListener("click" ,()=> {
-        window.location.href = "./flashcard.html";
-    });
+getStartedBtn.addEventListener("click", () => {
+    window.location.href = "./flashcard.html";
 });
 
-contactBtn.addEventListener("click", ()=> {
+getStartedtop.addEventListener("click", () => {
+    window.location.href = "./flashcard.html";
+});
+
+contactBtn.addEventListener("click", () => {
     window.open("https://x.com/AscendEleven", "_blank");
+});
+
+mobscreen.addEventListener("click", ()=> {
+    
 });
