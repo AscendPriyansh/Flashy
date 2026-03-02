@@ -132,6 +132,20 @@ body {
     }
 }
 
+.links-mobscreen {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.links-mobscreen a {
+    color: white;
+    text-decoration: none;
+}
+
+
 .hero {
     height: 100%;
     width: 100%;
