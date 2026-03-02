@@ -1,4 +1,4 @@
-## Flashy
+## 📌 Flashy
 An interactive flashcard web app to practice and revise topics in a simple, distraction-free way.
 
 ### Overview
@@ -20,22 +20,22 @@ I wanted to build a simple yet modern project using only HTML, CSS, and JavaScri
 <img width="1243" height="621" alt="Screenshot (571)" src="https://github.com/user-attachments/assets/86349df7-7287-4974-be83-ac46022cb8c7" />
 
 ### Features
-✅ Topic selection before starting
-✅ Clean flashcard UI
-✅ Show/Hide answer functionality
-✅ Next/Previous navigation
-✅ Smooth hover effects
-✅ Fully responsive design
-✅ Modern gradient UI
+✅ Topic selection before starting <br>
+✅ Clean flashcard UI <br>
+✅ Show/Hide answer functionality <br>
+✅ Next/Previous navigation <br>
+✅ Smooth hover effects <br>
+✅ Fully responsive design <br>
+✅ Modern gradient UI <br>
 
 ### Tech Stack
-HTML5 – Structure
-CSS3 – Styling & Responsive Design
-JavaScript (Vanilla JS) – Logic & Interactivity
-Git & GitHub – Version Control
+HTML5 – Structure <br>
+CSS3 – Styling & Responsive Design <br>
+JavaScript (Vanilla JS) – Logic & Interactivity <br>
+Git & GitHub – Version Control <br>
 
 ### Future Improvements
 I would love to collab with people to learn and grow.
 
 ### 👤 Author
-###Priyansh Tiwari
+### Priyansh Tiwari
